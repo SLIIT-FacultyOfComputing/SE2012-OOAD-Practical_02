@@ -13,7 +13,7 @@ Write a Java program that reads a ship’s serial number and displays the class 
   | D or d   | Destroyer   |
   | F or f   | Frigate     |
 
-
+---
 
 ## 2. Part B
 
