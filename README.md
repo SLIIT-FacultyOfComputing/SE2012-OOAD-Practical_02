@@ -1,13 +1,14 @@
 # SE2012-Practical - 02 - Java Basics
 
-1. Write a Java program that reads a ship’s serial number and displays the class of the ship. Each ship serial number begins with a letter indicating the class of the ship. The program first reads the first letter of a ship’s serial number into a char variable and then displays that character. Use a switch statement to display a message indicating the class of the ship.
+1. Write a Java program that reads a ship’s serial number and displays the class of the ship. Each ship serial number begins with a letter indicating the class of the ship. The program first reads the first 
+   letter of a ship’s serial number into a char variable and then displays that character. Use a switch statement to display a message indicating the class of the ship.
 
-  | Class ID | Ship Class  |
-  |----------|-------------|
-  | B or b   | Battleship  |
-  | C or c   | Cruiser     |
-  | D or d   | Destroyer   |
-  | F or f   | Frigate     |
+    | Class ID | Ship Class  |
+    |----------|-------------|
+    | B or b   | Battleship  |
+    | C or c   | Cruiser     |
+    | D or d   | Destroyer   |
+    | F or f   | Frigate     |
 
 ---
 
