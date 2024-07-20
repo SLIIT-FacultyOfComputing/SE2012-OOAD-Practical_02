@@ -1,4 +1,4 @@
-# SE2012-Practical - 02 - Java Basics
+# SE2012-Practical - 02 - Java Basics 
 
 ## 1. Part A
 
