@@ -1,6 +1,6 @@
 # SE2012-Practical - 02 - Java Basics
 
-## 1. Ship Class Identification
+## 1. Part A
 
 Write a Java program that reads a ship’s serial number and displays the class of the ship. Each ship serial number begins with a letter indicating the class of the ship. The program first reads the first letter of a ship’s serial number into a char variable and then displays that character. Use a switch statement to display a message indicating the class of the ship.
 
@@ -13,7 +13,7 @@ Write a Java program that reads a ship’s serial number and displays the class 
 | D or d   | Destroyer   |
 | F or f   | Frigate     |
 
-## 2. String Manipulation Tasks
+## 2. Part B
 
 Write a Java program that performs various string manipulation tasks as described below. Ensure that you include comments in your code to explain each step.
 
