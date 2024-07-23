@@ -247,7 +247,7 @@ Extend the program to display the grades of the student for each subject based o
 -	If the score is below 60, print "Fail“
 The “grades” command should display the grades of all the students in a tabular format as a summary.
 
-```
+
 ### Notes for Students
 
 - Use the Scanner class to read input from the user.
