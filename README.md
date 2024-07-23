@@ -227,7 +227,7 @@ Write a Java program that performs various string manipulation tasks as describe
 There are ‘n’ number of students in a class. The students are taking 3 subjects each. Mathematics, Chemistry and Physics. You are tasked with creating a small program to let the teacher enter and view the marks of all these students. The program should allow the user to view the average mark a student. The program should allow the user to view the average mark each subject. The program should allow the user to view the Total Mark of a student for all 3 subjects. Create a menu driven program to facilitate the above requirement. The menu should allow the below commands.
 
  1.	Add student marks: add [studentID]- student ID will be an integer ranging from 1 to n
- 2.	Update student mark : update [studentID] [subjectID] - subject ID will be an integer from 1 to 3
+ 2.	Update student mark : update [studentID] [subjectID] [mark] - subject ID will be an integer from 1 to 3
  3.	Get the average for a subject: average_s [studentID]
  4.	Get the average for a student: average [studentID]
  5.	Get the total mark of a student : total [studentID]
@@ -235,7 +235,12 @@ There are ‘n’ number of students in a class. The students are taking 3 subje
 ##### Steps
  - Create a public class named Marks.
  - Create the main method.
- - Create a 
+ - Create the functionality to take in the user entered commands as a single line using nextLine().
+ - use String manipulation to process the user inputs.
+ - Average and Totals should be displayed witht the user ID and subject ID is applicable.
+     - example :
+     - Average 1 shall display "Student <ID> has an Haverage of <Average>.
+     - update 1 2 58 shall display "Student 1's marks for subject 2 was updated to 58.
 
 ### Question 2 :
 
