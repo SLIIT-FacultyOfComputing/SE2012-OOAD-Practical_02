@@ -223,25 +223,31 @@ Write a Java program that performs various string manipulation tasks as describe
 ## Practical Questions ( Using Strings and String Manipulation Build the Menu below.)
 
 ### Question 1 :
+
 There are ‘n’ number of students in a class. The students are taking 3 subjects each. Mathematics, Chemistry and Physics. You are tasked with creating a small program to let the teacher enter and view the marks of all these students. The program should allow the user to view the average mark a student. The program should allow the user to view the average mark each subject. The program should allow the user to view the Total Mark of a student for all 3 subjects. Create a menu driven program to facilitate the above requirement. The menu should allow the below commands.
 
-Add student marks: add [studentID]- student ID will be an integer ranging from 1 to n
-Update student mark : update [studentID] [subjectID] - subject ID will be an integer from 1 to 3
-Get the average for a subject: average_s [studentID]
-Get the average for a student: average [studentID]
-Get the total mark of a student : total [studentID]
-Steps
-Create a public class named Marks.
-Create the main method.
-Create a
-### Question 2 :
-Extend the program to display the grades of the student for each subject based on the below criteria.
+ 1.	Add student marks: add [studentID]- student ID will be an integer ranging from 1 to n
+ 2.	Update student mark : update [studentID] [subjectID] - subject ID will be an integer from 1 to 3
+ 3.	Get the average for a subject: average_s [studentID]
+ 4.	Get the average for a student: average [studentID]
+ 5.	Get the total mark of a student : total [studentID]
+    
+##### Steps
+ - Create a public class named Marks.
+ - Create the main method.
+ - Create a 
 
-If the score is 90 or above, print "Grade A"
-If the score is between 80 and 89, print "Grade B"
-If the score is between 70 and 79, print "Grade C"
-If the score is between 60 and 69, print "Grade D"
-If the score is below 60, print "Fail“ The “grades” command should display the grades of all the students in a tabular format as a summary.
+### Question 2 :
+
+Extend the program to display the grades of the student for each subject based on the below criteria.
+-	If the score is 90 or above, print "Grade A"
+-	If the score is between 80 and 89, print "Grade B"
+-	If the score is between 70 and 79, print "Grade C"
+-	If the score is between 60 and 69, print "Grade D"
+-	If the score is below 60, print "Fail“
+The “grades” command should display the grades of all the students in a tabular format as a summary.
+
+```
 ### Notes for Students
 
 - Use the Scanner class to read input from the user.
